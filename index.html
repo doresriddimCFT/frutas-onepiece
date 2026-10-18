@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutas del Diablo - One Piece</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container py-4">
+    <!-- Cabecera -->
+    <header>
+        <h1 class="text-center mb-4">Frutas del Diablo - One Piece</h1>
+    </header>
+
+    <!-- Cuerpo Principal -->
+    <main>
+        <!-- Buscador simple -->
+        <search>
+            <div class="input-group mb-4">
+                <input type="search" id="input-busqueda" class="form-control" placeholder="Buscar fruta..."
+                    aria-label="Buscar fruta por nombre">
+            </div>
+        </search>
+
+        <!-- Contenedor de frutas -->
+        <section id="frutas-container" class="row g-3" aria-label="Listado de frutas"></section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="text-center text-muted small mt-4">
+        <p>Rodrigo Fajardo - Diseño y Desarrollo de Software - 2026</p>
+        <p>Datos obtenidos de la API de One Piece</p>
+    </footer>
+
+    <!-- Lógica de la aplicación: consume la API y filtra los resultados -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
